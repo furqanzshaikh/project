@@ -1,0 +1,132 @@
+@media only screen and (max-width: 912px) {
+#main{
+    height: 45vh;
+
+}
+#imgs img{
+  height: 110vh;
+  width: 60vh;
+
+}
+#imgs #img2{
+  margin-left: 78vw;
+}
+
+#dashb{
+    margin-top: -4vw;
+}
+  }
+
+
+  #llogo{
+    gap: 3vw;
+    
+  }
+
+  @media only screen and (max-width: 540px) {
+
+
+#imgs img{
+
+  width: 88vw;
+
+}
+
+
+
+
+  #dashb{
+ margin-bottom: 4rem;
+  }
+
+#boxes{
+    display: flex;
+    justify-content: space-evenly;
+}
+.title{
+    width:12.5vw;
+    height: 12.5vw;
+    font-size: 6px;
+    border-radius: 10px;
+
+
+}
+
+
+
+  #bigbox{
+    margin-top: -2rem;
+  }
+
+#llogo{
+  gap: 3vw;
+  
+}
+
+
+}
+
+@media only screen and (max-width: 415px) {
+
+    #main{
+        height: 30vh;
+    }
+
+   .title{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 9vw;
+    height: 9vw;
+    border-radius: 10px;
+    font-size: 1vw;
+    }
+
+
+    #imgs img{
+      height: 80vh;
+      width: 87vw;
+    
+    }
+
+#llogo{
+gap: 3vw;
+
+}
+  
+  }
+  
+  @media only screen and (max-width: 415px) {
+
+  
+    #dashb{
+        margin-top: 1rem;
+        margin-bottom: 0.4rem;
+    }
+    #bigbox{
+        height: 16vh;
+        line-height: 3vw;
+        border-radius:15px ;    
+    }
+  }
+
+  @media only screen and (max-width: 350px) {
+    #boxes
+    {  
+display: flex;
+align-items: center;
+justify-content: center;
+
+margin: 1.5rem 0;
+    }
+
+    .title{
+        width: 25px;
+        height: 25px;
+        border-radius: 5px;
+    }
+
+    #bigbox{
+        margin: 0.4rem 0;
+    }
+  }

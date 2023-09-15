@@ -1,38 +1,315 @@
-.App {
-  text-align: center;
+
+
+@import url('https://fonts.googleapis.com/css2?family=Anybody:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;0,900;1,700&family=Stick+No+Bills:wght@700;800&display=swap');
+
+*{
+
+  margin: 0;
+  padding: 0;
+
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+
+#main{
+  height: 100vh;
+  background-color: #0D1728;
+  position: relative;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#page1{
+  position: relative;
   display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#imgs{
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ 
+}
+
+
+#imgs img{
+position: absolute;
+width: 90vw;
+
+}
+
+#imgs #img2{
+ margin-left: 77vw;
+
+
+}
+nav{ 
+
+
+
+  width: 70%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 1vw;
+  align-items: center;
+
+}
+
+#page1{padding-top: 1vw;}
+
+
+nav h5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Anybody', cursive;
+  
+}
+nav #lite{
+  font-family: 'Anybody', cursive;
+  font-weight: 300; 
+}
+
+
+#logo{
+
+font-family: 'Stick No Bills', sans-serif; 
+font-weight: 800;
+  font-size: 2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  height: 0.7em;
+  width: 0.7em;
+  border-radius: 50%;
+  padding: 1vw;
+  text-transform: uppercase;
+
+
+}
+#text{
+
+  font-size: 1.3vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3rem;
+  color: white;
+
+}
+#btn1{
+  font-family: 'Anybody', cursive;
+  padding: 1vw;
+  width: 10vw;
+  border-radius: 15px;
+  border: 1px solid black;
+  font-size: 0.8vw;
+
+
+}
+
+#maintext{
+  line-height: 2vw;
+  text-transform: capitalize;
+  padding: 2rem;
+  color: white;
+  display: flex;
+  text-align: center;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+
+#maintext p{
+  font-size: 1.2vw;
+  opacity: 0.8;
+  font-family: 'Anybody', cursive;
+  font-weight: 300;
+
+
+
+}
+
+#maintext h1{
+  line-height: 5vw;
+  width: 80%;
+  font-size: 3.5vw;
+  font-family: 'Anybody', cursive;
+  margin: 1.3vw;
+  font-weight: 700;
+}
+#maintext button{
+  font-family: 'Anybody', cursive;
+  font-size: 1.1vw;
+  font-weight:bold;
+  padding: 0.7vw;
+  width: 9vw;
+  margin: 1vw;
+  border-radius:10em ;
+  border: 1px solid gainsboro;
+}
+#dashb{
+  margin-top: 6rem;
+ display: flex;
+ align-items: center;
+ justify-content: center; 
+  
+}
+#dashb img{
+  z-index: 1;
+  width: 60vw;
+  margin-top: -23vw;
+}
+
+#boxes{
+
+  width: 100%;
+  margin: 6vw 0;
+  margin-bottom: 16vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 3vw;
+  
+
+
+}
+.title{
+  font-family: 'Anybody', cursive;
+  font-weight: 600  ;
+  font-size: 1vw;
+  width: 15vw;
+  height: 10vw;
+  padding:0.5rem 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: #1E2746;
+  color: aliceblue;
+  border-radius: 0.5rem;
+  
+}
+
+#pbbox{
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+margin-bottom: 7vw;
+}
+#bigbox{
+  margin-top: -6rem;
+  height: 30vw;
+  width: 70vw;
+  border-radius: 2rem;
+  background-color: #293241;
+  padding: 1rem;
+  
+ 
+  
+}
+#bigbox h1{
+  line-height: 4vw;
+  font-size: 3vw;
+  padding: 1em 1em;
   color: white;
+  font-weight: 900;
+  font-family: 'Anybody', cursive;
+  
 }
 
-.App-link {
-  color: #61dafb;
+#btn3{
+  font-family: 'Anybody', cursive;
+  font-size: 1.2vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding:1vw;
+  width: 12vw;
+  border-radius: 0.6em;
+  border: 1px solid gainsboro;
+  margin: 1vw 0;
+  
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer{
+  margin: 7vw 7vw 3vw 7vw;
+
+}
+
+#llogo{
+  display: flex;
+  
+}
+
+#llogo h3{
+  margin-left: 2vw;
+  color: white;
+  padding: 0.2vw;
+  font-size: 1.8vw;
+  background-color: #1E2746;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.5vw;
+  height: 2.5vw;
+  border-radius: 50%;
+  font-family: 'Stick No Bills',cursive;
+
+}
+#llogo #lheadings{
+  line-height: 1.8vw;
+  font-size: 1.4vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  font-family: 'Anybody',cursive;
+  font-weight: 900;
+  font-style: italic;
+  margin-left: 2vw;
+
+}
+#fhead{
+  margin-left: -15px;
+}
+
+#ltext{
+
+  font-size: 1vw;
+  display: flex;
+  align-items: center;
+  margin: 2vw;
+  font-family: 'Anybody',cursive;
+  opacity: 0.7;
+}
+
+#ltext p{
+  margin-top: 1vw;
+
+}
+
+
+#end{
+
+  font-size: 1vw;
+  font-family:'Anybody',cursive;
+  display: flex;
+  align-items: center;
+  margin: 2vw;
+  padding-bottom: 2vw;
+}
+
+#endp {
+display: flex;
+justify-content: center;
+font-size: 1.2vw;
+font-family: 'Anybody',cursive;
+font-weight: 300;
+margin-top: -3vw;
 }
